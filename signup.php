@@ -170,7 +170,7 @@
 <div id="intro">
 
             
-               <form action="signup.php" method="post">
+               <form action="index.php" method="post">
                   <div class="form-outline mb-4">
                   <input type="text" id="username" class="form-control form-control-lg" />
                   <label class="form-label" for="username">Username</label>
