@@ -67,7 +67,12 @@
   font-size: 14px;
   color: #333;
 }
-
+#footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
 
     .btn-primary {
@@ -230,12 +235,9 @@
 </section> 
 
 
- <footer class="bg-light text-center text-lg-start" style="width: 100%;">
-
- <div class="text-center p-3" style="background-color: #d7e1f2;">
-    © 2023 Matara Central College. All Rights Reserved
+<div id="footer">
+    <p>&copy; 2023 Science Lab Management System. All rights reserved.</p>
   </div>
-</footer>
 
 </body>
 

@@ -2,9 +2,86 @@
 <html>
 <head>
   <title>Science Lab Management System-Matara Central College</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #content {
+      padding: 20px;
+    }
+
+    #nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    #nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px; /* Add space between links */
+    }
+
+    #footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is the homepage of my website.</p>
+  <div id="header">
+    <h1>Science Lab Management System</h1>
+  </div>
+
+  <div id="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#" style="margin-left: 20px;">Login</a> <!-- Add spacing to Login link -->
+    <a href="#">Signup</a>
+  </div>
+
+  <div id="content">
+    <h2>Welcome to the Lab Management System!</h2>
+    <p>This system helps you manage various aspects of your science lab.</p>
+
+    <a href="lab_inventory.html" class="button">Lab Inventory</a>
+    <a href="experiments.html" class="button">Experiments</a>
+    <a href="reports.html" class="button">Reports</a>
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2023 Science Lab Management System. All rights reserved.</p>
+  </div>
 </body>
 </html>
